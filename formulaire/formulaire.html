@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta href="utf_8" />
+        <title>inscription</title>
+        <link rel="stylesheet" href="formulaire.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+<link rel="icon" href="images/lmu.png" >
+    </head>
+
+    <body class="container-fluid">
+ <header >
+     <div class="row">
+        <div class="col-6 nom">
+        <img src="images/lmu.png">
+        <h1>LM University</h1>
+        </div> 
+    
+    
+     <div class="col-6" >
+   <nav>
+        <ul>
+        <li> <a href="#">Accueil</a></li>
+        <li> <a href="#"> Formation</a></li>
+        <li> <a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+</div>
+ </div>
+ </header>
+<div class="sep"> </div>
+
+<div class="info">
+    <h2>Inscrivez-vous au master professionel</h2>
+    <p>l'Université LM vous offre des Masters d'Université en formation continue (payante) dans diverses domaines : ....<a href="#">voir plus</a> </p>
+
+</div>
+
+
+
+<div class="row form">
+    <div class="col">
+        <form>
+            <div class="form-group">
+                <br>
+                <label for="Nom">Nom</label>
+                <input type="Nom" class="form-control " id="Nom" placeholder="Nom">
+
+                <label for="Prenom">Prenom</label>
+                <input type="Prenom" class="form-control " id="Prenom" placeholder="Prenom">
+
+                <label for="CNI">CNI</label>
+                <input type="CNI" class="form-control " id="CNI" placeholder="Carte nationale d'identité">
+                
+               
+
+                <label for="CNE">CNE</label>
+                <input type="CNE" class="form-control " id="CNE" placeholder="Code national d'étudiant">
+                <p id="detail">une lettre suivie de 9 chiffres</p>
+                 
+
+                <label for="email">Email</label>
+                <input type="email" class="form-control " id="email" placeholder="Email">
+            
+                <label for="password">Mot de passe</label>
+                <input type="password" class="form-control " id="password" placeholder="Mot de passe">
+            
+            
+                <label for="passconf">Confirmer votre mot de passe</label>
+                <input type="password" class="form-control " id="passconf" placeholder="Confirmer votre Mot de passe">
+
+            </div>
+    </div>
+
+
+    <div class="col">
+        
+    
+        <div class="form-group">
+            <br>
+
+                <label for="date">Date de naissance</label>
+                <input type="date" class="form-control " id="date">
+
+            <label for="Tél:">Télephone</label>
+            <input type="Tél" class="form-control" id="Tél" placeholder="Tél: +212..." maxlength="10">
+           
+               <div id="sexe">
+                <label >Sexe :</label>
+                <div class="custom-control custom-radio">
+               
+                    <input type="radio" id="Homme" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="Homme">Homme</label>
+                  </div>
+    
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="Femme" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="Femme">Femme</label>
+                  </div>
+    
+                  
+            </div> 
+              
+           
+    
+            <label for="licence">Licence</label>
+            <select id="licence" class="form-control">
+            <option selected>Choisissez le type de votre licence...</option>
+
+                 <option>L.science et technique</option>
+                 <option>L.fondamentale</option>
+                 <option>L.professionnelle</option>
+               
+            </select>
+            <label for="mention">Mention</label>
+            <select id="mention" class="form-control">
+            <option selected>La Mention de votre Diplome...</option>
+
+                 <option>Passable</option>
+                 <option>Assez Bien</option>
+                 <option>Bien</option>
+                 <option>Très Bien</option>
+
+               
+            </select>
+            
+
+
+            <label for="choix">Choix de master</label>
+            <select id="choix" class="form-control">
+            <option selected>Choisissez la filière que vous voulez...</option>
+
+                 <option>Big Data</option>
+                 <option>Bureau d’Etude et Conception des Matériaux</option>
+                 <option>Finance et Assurance</option>
+                 <option>Génie Climatique et Énergétique</option>
+                  <option>Génie Électrique</option>
+                 <option>Ingénierie des Applications Mobiles</option>
+                 <option>Management de Projet en Génie Civil et Construction</option>
+                
+                 
+               
+            </select>
+
+            
+                
+           
+    
+        </div>
+        <button type="submit" style=" margin-left: 200px; margin-top: 20px; background-color: rgba(3, 107, 151,0.6); ">S'inscrire</button>
+    
+    
+    </div>
+</div>
+<div class="sep"></div>
+
+
+ <footer>
+        <div class="row">
+
+            <div class="col-4 fot" id="reseau">
+                <p>Suivez-nous</p>
+                <a href="#"><img src="images/facebook.png" id="fb"></a>
+               <a href="#"><img src="images/insta.png " id=insta ></a> 
+               <a href="#"><img src="images/twitter.png" id="twit"></a> 
+            </div>
+
+
+            <div class="col-4 fot">
+                
+            <img src="images/lmu.png" id="lmu"><p id="cop">copyright © 2021 tous droits réservés</p>
+            </div>
+
+
+            <div class="col-4 fot" id="contact">
+                Pour poser vos questions <button>Contactez-Nous</button> 
+            </div>
+            
+        </div>
+
+ </footer>
+
+
+
+    </body>
+</html>

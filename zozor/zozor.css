@@ -1,0 +1,212 @@
+
+ @font-face{
+     font-family: 'ballpark';
+     src:url('./polices/ballpark.ttf');
+ }
+ @font-face{
+ font-family: 'dayrom';
+ src:url('./polices/dayrom.ttf');
+}
+ 
+body{
+    background-image:url("images/fond_jaune.png");
+    padding-left:180px;
+    padding-right: 180px;  
+}
+ 
+ body a{
+    
+text-decoration:none;
+
+
+}
+/* header */
+
+
+header h1{
+    font-family:'ballpark' ;
+    margin-left: 60px;
+    margin-top: -10px;
+    
+}
+header img{
+    width: 18%;
+    margin-top: 20px;
+    margin-left: 10px;
+   
+}
+header p{
+ font-size: 18px;
+ font-family: 'dayrom';
+ margin-top: -15px;
+}
+nav{
+    
+    margin-top: 110px;
+    margin-right: 10px;
+    float: right;
+    width: 550px;
+    text-align: center;
+    
+}
+
+ nav ul li{
+     display: inline-block;
+     margin-right: 35px;
+
+
+}
+
+
+nav ul li a{
+    text-transform: uppercase;  
+    font-size: 22px;
+    color: rgb(22, 21, 21);
+
+
+    font-family: 'dayrom';
+}
+nav a:hover{
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+
+
+.sep{
+
+    background-image: url("images/separateur.png");
+    background-repeat: repeat;
+  
+  height: 3px; 
+ 
+
+}
+/* SECTION 1 */
+#san{
+    margin-top: 20px;
+}
+
+
+button{
+    background-image:url("images/fond_degraderouge.png");
+    background-repeat: repeat;
+    width: 90px;
+    height: 32px;
+    
+    color: #fff;   
+    
+    
+
+}
+#text-san .col-3{
+    width: 15%;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+#text-san{
+    background: rgba(0,0,0,0.6);
+    margin-top: -50px;
+    --bs-gutter-x: 0;
+    color: #fff;
+    padding-top: 10px;
+    border-radius: 0px 0px 10px 10px ;
+    padding-left: 10px;
+}
+#san > img {
+    border-radius: 10px;
+    padding: 0px;
+    width: 951px;
+    margin-left: 12px;
+    box-shadow: 1px 3px 2px ;
+}
+
+
+/* section 2 */
+article {
+    padding: 0px;
+}
+article img{
+margin-right: 0px;
+}
+#bulle {
+    padding: 0px;
+    width: 12px;
+    height: 19px;
+    margin-top: 120px;
+    margin-left: 14px;
+
+}
+.sec2{
+    margin-top: 30px;
+}
+#info{
+    background-color: rgb(104, 99, 99);
+    border-radius: 10px;
+    height: 520px;
+}
+aside{
+    
+    
+    color: #fff;
+    padding: 0px;
+}
+aside h5{
+    text-transform: uppercase;
+    font-family: 'dayrom';
+    margin-top: 30px;
+
+}
+#title{
+    font-family: 'dayrom';
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: -38px;
+    text-transform: uppercase;
+}
+#zozor_class{
+     text-align:center;
+}
+.reseau {
+    text-align:center;
+}
+.reseau img{
+    width: 18%;
+}
+
+
+/* footer */
+
+footer h3{
+    font-family: 'dayrom';
+    text-transform: uppercase;
+    font-size: 23px;
+
+}
+#photo img{
+    border:1px solid black;
+}
+
+
+
+
+
+
+
+#top{
+    text-align: center;
+
+}
+#top img {
+    width: 70px;
+}
+.nnn ul  {
+    list-style: none;
+    padding-left: 0px;
+   
+}
+.nnn ul li{
+  font-size: 12px;  
+  color:brown ;
+  font-weight: bold;
+  cursor: pointer;
+} 
